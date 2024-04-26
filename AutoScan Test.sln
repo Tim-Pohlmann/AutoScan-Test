@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp", "BlazorApp\BlazorApp.csproj", "{F384E757-8FC2-40F8-9193-55D0D8EC6893}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject", "SharedProject\SharedProject.shproj", "{D093FF7E-86D3-45A2-B1EF-AD556E6973B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F384E757-8FC2-40F8-9193-55D0D8EC6893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F384E757-8FC2-40F8-9193-55D0D8EC6893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F384E757-8FC2-40F8-9193-55D0D8EC6893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F384E757-8FC2-40F8-9193-55D0D8EC6893}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {857F8F2A-306A-47DF-9AE5-52323667DBDA}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedProject\SharedProject.projitems*{d093ff7e-86d3-45a2-b1ef-ad556e6973b2}*SharedItemsImports = 13
+		SharedProject\SharedProject.projitems*{f384e757-8fc2-40f8-9193-55d0d8ec6893}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
